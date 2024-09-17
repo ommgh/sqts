@@ -15,7 +15,7 @@ import {
 export default function DashboardHome() {
   const [itemsInspected, setItemsInspected] = useState(1000);
   const [defectsDetected, setDefectsDetected] = useState(50);
-  const [recentAlerts, setRecentAlerts] = useState([
+  const [recentAlerts] = useState([
     {
       id: 1,
       message: "High defect rate detected in Batch A-123",

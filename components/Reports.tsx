@@ -19,12 +19,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import {
-  Calendar as CalendarIcon,
-  Download,
-  FileText,
-  Loader2,
-} from "lucide-react";
+import { Calendar as CalendarIcon, Download, Loader2 } from "lucide-react";
 import { format } from "date-fns";
 import { Calendar } from "@/components/ui/calendar";
 import {
